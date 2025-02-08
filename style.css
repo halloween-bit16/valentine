@@ -1,0 +1,28 @@
+
+*{
+    text-align: center;
+    background-image: url(/assets/I\ Love\ You\ Hearts\ GIF\ by\ Saskia\ Keultjes.gif);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+a{
+    border: 5px solid rgb(160, 11, 81);
+    background-color: pink;
+    padding: 10px;
+}
+
+img{
+    width:300px;
+    height:300px;
+}
+
+a:visited,a:hover,a:active
+{
+    color:#a01685;
+}
+
+.one{
+    height: 250px;
+    width: 200px;
+}

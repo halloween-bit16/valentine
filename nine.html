@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<head>
+    <title>um...</title>
+    <style>
+        .hiddenImage {
+            display: none; 
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <h1> click on :O to reveal images</h1>
+
+    <button onclick="revealImage('image1')">:O</button>
+    <img id="image1" class="hiddenImage" style="height:350px;width:200px" src="/assets/four.jpg" >
+    
+    <button onclick="revealImage('image2')">:O</button>
+    <img id="image2" class="hiddenImage" style="height:350px;width:200px" src="/assets/three [MConverter.eu].gif" >
+
+    <button onclick="revealImage('image3')">:O</button>
+    <img id="image3" class="hiddenImage" style="height:200px;width:200px" src="/assets/five1.jpg" >
+
+    <button onclick="revealImage('image4')">:O</button>
+    <img id="image4" class="hiddenImage" style="height:200px;width:350px" src="/assets/six.jpg" >
+
+    <button onclick="revealImage('image5')">:O</button>
+    <img id="image5" class="hiddenImage" style="height:200px;width:350px" src="/assets/seven.jpg" >
+
+    <button onclick="revealImage('image6')">:O</button>
+    <img id="image6" class="hiddenImage" style="height:200px;width:350px" src="/assets/eight.jpg" >
+
+    <button onclick="revealImage('image7')">:O</button>
+    <img id="image7" class="hiddenImage" style="height:350px;width:200px" src="/assets/nine1.gif" >
+
+    <button onclick="revealImage('image8')">:O</button>
+    <img id="image8" class="hiddenImage" style="height:350px;width:200px" src="/assets/ten.jpg" >
+
+    <button onclick="revealImage('image9')">:O</button>
+    <img id="image9" class="hiddenImage" style="height:200px;width:200px" src="/assets/eleven.jpg" >
+ 
+    <button onclick="revealImage('image10')">:O</button>
+    <img id="image10" class="hiddenImage" style="height:350px;width:200px" src="/assets/tweleve.jpg" >
+ 
+    <script>
+        function revealImage(imageId) {
+            // Get the image element by its ID
+            var image = document.getElementById(imageId);
+            
+            // Toggle the display property
+            if (image.style.display === "none") {
+                image.style.display = "block";
+            } else {
+                image.style.display = "none";
+            }
+        }
+    </script>
+    <br><br>
+    <a href="ten.html">Pack it up lil vro</a>
+</body>
